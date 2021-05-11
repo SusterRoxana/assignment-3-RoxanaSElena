@@ -20,7 +20,6 @@ public class PatientController {
 
     @PostMapping
     public PatientDTO create (@RequestBody PatientDTO patient){
-        System.out.println("buna");
         return patientService.create(patient);}
 
     @PutMapping(ENTITY)

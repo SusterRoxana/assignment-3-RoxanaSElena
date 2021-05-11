@@ -31,7 +31,6 @@ public class PatientService {
 
     public PatientDTO create(PatientDTO patient)
     {
-        System.out.println("hello");
         return patientMapper.toDto(patientRepository.save(patientMapper.fromDto(patient)));
 
     }

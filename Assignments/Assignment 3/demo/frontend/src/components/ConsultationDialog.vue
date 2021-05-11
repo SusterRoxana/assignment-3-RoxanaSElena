@@ -12,7 +12,10 @@
         <v-form>
           <v-text-field v-model="consultation.date" label="Date" />
           <v-text-field v-model="consultation.time" label="Hour" />
-          <v-text-field v-model="consultation.patient_id" label="Patient's id" />
+          <v-text-field
+            v-model="consultation.patient_id"
+            label="Patient's id"
+          />
           <v-text-field v-model="consultation.doctor_id" label="Doctor's id" />
           <v-text-field v-model="consultation.text" label="Text" />
         </v-form>
